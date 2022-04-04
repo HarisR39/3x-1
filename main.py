@@ -1,4 +1,4 @@
-
+list = list()
 x = 1
 while x == 1:
     x = int(input("enter a number: "))
@@ -8,4 +8,5 @@ while x == 1:
         else:
             x = x*3+1
         print(x)
+        list.append(x)
 
